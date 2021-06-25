@@ -12,9 +12,9 @@ function draw() {
   rotate(-90)
 
   push()
-  hr = hour(5);
-  m = minute(0);
-  s = second(0);
+  hr = hour();
+  m = minute();
+  s = second();
   sA=map(s,0,60,0,360)
   mA=map(m,0,60,0,360)
   hrA=map(hr,12,0,12,0,360)
